@@ -64,7 +64,7 @@ article {
 }
 
 nav {
-  height: 50px;
+  height: 75px;
   background-color: ff80ff;
   display: flex;
   padding: 1% 0;
@@ -100,9 +100,10 @@ nav .search {
   padding: 0 2em;
 }
 
-.search input {
+.search input, .search label {
   font-size: 1.6rem;
   height: 32px;
+  margin-left: 8px;
 }
 
 .search input[type="search"] {
@@ -177,7 +178,7 @@ audio {
   padding: 10px;
 }
 
-.show-hide {
+.show-hide, .submit {
   cursor: pointer;
 }
 
