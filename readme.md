@@ -6,8 +6,8 @@ Mede dankzij de groene achtergrond kleur is alle tekst slecht leesbaar vanwege s
 
 **Semantische HTML**
 
-Bij gebruik van de schermlezer wordt alle content buiten de <article> (paginatitel, navigatiebalk, gerelateerd, zoekbak, reacties en kopieer rechten) volledig overgeslagen, dit is erg problematisch voor slechtzienden die graag meer over de website willen weten dan beren.
-In de <article> zelf worden de afbeeldingen niet beschreven, en wordt de tabel onduidelijk toegelicht.
+Bij gebruik van de schermlezer wordt alle content buiten de article element (paginatitel, navigatiebalk, gerelateerd, zoekbak, reacties en kopieer rechten) volledig overgeslagen, dit is erg problematisch voor slechtzienden die graag meer over de website willen weten dan beren.
+In de article element zelf worden de afbeeldingen niet beschreven, en wordt de tabel onduidelijk toegelicht.
 
 Veel van deze problemen kunnen opgelost worden met juist gebruik van HTML5 elementen semantiek.
 
@@ -21,4 +21,6 @@ Voor het vervolg kunnen de volgende overwegingen nog eventueel gemaakt worden om
 
 - De taal van het document definieren.
 
-- Na het invullen van de naam de standaard "submit" functie van [enter/return] kan het beste worden geblokkeerd in JavaScript met "preventDefault();", zodat er niet per ongeluk
+- Afbeeldingen insluiten m.b.v. de figure en figcaption elementen.
+
+- Na het invullen van de naam kan de standaard "submit" functie van [enter/return] het beste worden geblokkeerd in JavaScript met "preventDefault();", zodat er niet per ongeluk een comment vroegtijdig verstuurd word.
